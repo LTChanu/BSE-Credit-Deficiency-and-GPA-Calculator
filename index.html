@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Deficiency Checker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Course Deficiency Checker</h1>
+    <div class="inputs">
+        <textarea id="inputData" rows="15" cols="200" class="input"></textarea><br>
+        <button id="pasteButton" class="button">Paste</button>
+        <button id="submitButton" class="button">Submit</button>
+        <button id="clearButton" class="button">Clear</button>
+    </div>
+    <h2>Output:</h2>
+    <div id="output">
+        <div class="column">
+            <div id="outputCategoryI" class="output-category"></div>
+            <div id="outputCategoryM" class="output-category"></div>
+            <div id="outputCategoryJ" class="output-category"></div>
+            <div id="outputCategoryZ" class="output-category"></div>
+            <div id="outputCategoryY" class="output-category"></div>
+            <div id="outputCategoryL" class="output-category"></div>
+            <div id="outputCategoryW" class="output-category"></div>
+            <div id="extraCreditsNeeded" class="output-extra"></div>
+            <div id="passCredits" class="output-pass-target"></div>
+            <div id="targetCredits" class="output-pass-target"></div>
+        </div>
+        <div class="column">
+            <div id="outputCategoryNoOfGPACredits" class="output-category"></div>
+            <div id="outputCategoryGP" class="output-category"></div>
+            <div id="outputCategoryGPA" class="output-category"></div>
+            <div id="outputCategoryDegreeClass" class="output-category"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
