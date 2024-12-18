@@ -28,7 +28,7 @@ const creditMap = {
     'W': { minCredits: 8, maxCredits: 8, minLevel5Above: 0, minLevel6: 0 }
 };
 
-let subTotalCredit = 134;
+let subTotalCredit = 130;
 let passCredit = 0;
 let targetCredit = 0;
 let totalCredits = {};
@@ -36,7 +36,7 @@ let level5AboveCredits = {};
 let level6Credits = {};
 
 function reset() {
-    subTotalCredit = 134;
+    subTotalCredit = 130;
     passCredit = 0;
     targetCredit = 0;
     totalCredits = {};
